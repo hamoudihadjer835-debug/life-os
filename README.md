@@ -6,40 +6,28 @@
 
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-7c6fcd?style=for-the-badge)](https://life-os-sigma-ivory.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/hamoudihadjer835-debug/life-os)
-[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongodb.com)
-[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
-
-![LifeOS Dashboard Preview]([https://via.placeholder.com/900x500/0f0f1a/7c6fcd?text=LifeOS+Dashboard](https://life-os-sigma-ivory.vercel.app))
+[![Backend](https://img.shields.io/badge/Backend-Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)](https://lifeos-backend-rupv.onrender.com)
+[![MongoDB](https://img.shields.io/badge/Database-MongoDB_Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongodb.com)
 
 </div>
 
 ---
 
-## 📋 Table of Contents
-
-- [Overview](#-overview)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Screenshots](#-screenshots)
-- [Getting Started](#-getting-started)
-- [Project Structure](#-project-structure)
-- [API Endpoints](#-api-endpoints)
-- [Deployment](#-deployment)
-- [Author](#-author)
-
----
-
-## 🎯 Overview
+##  Overview
 
 **LifeOS** is a full-stack personal life management dashboard built with the **MERN stack**. It helps you take control of your daily life by tracking your finances, managing projects with a Kanban board, building healthy habits, and organizing your notes — all in one beautiful, responsive interface.
 
 > 💡 Built as a personal project to demonstrate full-stack development skills including REST API design, JWT authentication, real-time UI updates, and responsive design.
 
+🔗 **Live App:** https://life-os-sigma-ivory.vercel.app  
+🔗 **Backend API:** https://lifeos-backend-rupv.onrender.com  
+🔗 **Source Code:** https://github.com/hamoudihadjer835-debug/life-os  
+
 ---
 
-## ✨ Features
+##  Features
 
-### 💰 Finance Tracker
+###  Finance Tracker
 - Add income & expense transactions with categories
 - Interactive charts (bar + doughnut) powered by Chart.js
 - Multi-currency support (USD, EUR, GBP, DZD, SAR)
@@ -47,43 +35,42 @@
 - CSV export for transaction history
 - Filter by date, category, and type
 
-### 📋 Project Manager
-- Kanban board with drag-and-drop tasks (Todo → In Progress → Done)
+###  Project Manager
+- Kanban board with tasks (Todo → In Progress → Done)
 - Task priorities (Low, Medium, High, Urgent)
 - Due dates, labels, and tags per task
 - Project statistics sidebar
 - Responsive mobile overlay for sidebar
 
-### 🔥 Habit Tracker
+###  Habit Tracker
 - Daily habit completion tracking with streaks
 - Visual heatmap calendar (GitHub-style)
 - Habit statistics and goal setting
 - Category-based organization
 - Best streak tracking
 
-### 📝 Notes
+###  Notes
 - Full CRUD with rich text content
 - Pin important notes to top
 - Color-coded notes (7 colors)
 - Category and tag filtering
 - Search across title and content
 
-### 👤 Profile & Settings
+###  Profile & Settings
 - Personal score based on daily performance
 - Avatar color customization
 - Dark/Light theme toggle
 - Currency and week start preferences
 - Notification preferences
 
-### 🔐 Authentication
+###  Authentication
 - JWT-based login & registration
 - Secure password hashing with bcrypt
 - Protected routes
-- Auto token refresh
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 ### Frontend
 | Technology | Purpose |
@@ -93,7 +80,6 @@
 | Chart.js + react-chartjs-2 | Data visualization |
 | Axios | HTTP requests |
 | Context API | State management (Auth, Theme, Notifications) |
-| CSS (inline + classes) | Styling with glass morphism design |
 
 ### Backend
 | Technology | Purpose |
@@ -102,45 +88,24 @@
 | MongoDB + Mongoose | Database & ODM |
 | JWT (jsonwebtoken) | Authentication |
 | bcryptjs | Password hashing |
-| dotenv | Environment variables |
 | CORS | Cross-origin requests |
 
 ### Deployment
-| Service | Purpose |
-|---------|---------|
-| Vercel | Frontend hosting |
-| Render | Backend hosting |
-| MongoDB Atlas | Cloud database |
-| GitHub | Version control |
+| Service | Purpose | URL |
+|---------|---------|-----|
+| Vercel | Frontend hosting | https://life-os-sigma-ivory.vercel.app |
+| Render | Backend hosting | https://lifeos-backend-rupv.onrender.com |
+| MongoDB Atlas | Cloud database | Paris (eu-west-3) |
+| GitHub | Version control | https://github.com/hamoudihadjer835-debug/life-os |
 
 ---
 
-## 📸 Screenshots
-
-<div align="center">
-
-| Dashboard | Finance |
-|-----------|---------|
-| ![Dashboard](https://via.placeholder.com/400x250/0f0f1a/7c6fcd?text=Dashboard) | ![Finance](https://via.placeholder.com/400x250/0f0f1a/4caf50?text=Finance) |
-
-| Projects (Kanban) | Habits |
-|-----------|---------|
-| ![Projects](https://via.placeholder.com/400x250/0f0f1a/f0a500?text=Projects) | ![Habits](https://via.placeholder.com/400x250/0f0f1a/a855f7?text=Habits) |
-
-| Notes | Profile |
-|-------|---------|
-| ![Notes](https://via.placeholder.com/400x250/0f0f1a/00bcd4?text=Notes) | ![Profile](https://via.placeholder.com/400x250/0f0f1a/ff6b6b?text=Profile) |
-
-</div>
-
----
-
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js v18+
 - MongoDB (local) or MongoDB Atlas account
-- npm or yarn
+- npm
 
 ### 1. Clone the repository
 ```bash
@@ -178,18 +143,18 @@ The app will run on `http://localhost:3000`
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 life-os/
 ├── client/                     # React Frontend
 │   ├── public/
-│   │   └── index.html          # App entry + favicon
+│   │   └── index.html
 │   └── src/
 │       ├── components/
-│       │   ├── Navbar.js       # Responsive navbar + hamburger
+│       │   ├── Navbar.js       # Responsive navbar + hamburger menu
 │       │   ├── Icons.js        # SVG icons library
-│       │   └── FinanceChart.js # Chart components
+│       │   └── FinanceChart.js
 │       ├── context/
 │       │   ├── AuthContext.js  # JWT auth state
 │       │   ├── ThemeContext.js # Dark/light theme
@@ -201,11 +166,11 @@ life-os/
 │       │   ├── Habits.js       # Habit tracker + heatmap
 │       │   ├── Notes.js        # Notes CRUD
 │       │   ├── Profile.js      # User profile + settings
-│       │   ├── Login.js        # Auth pages
+│       │   ├── Login.js
 │       │   └── Register.js
 │       ├── services/
-│       │   └── api.js          # Axios instance + API calls
-│       ├── App.js              # Routes setup
+│       │   └── api.js          # Axios instance + all API calls
+│       ├── App.js
 │       └── index.css           # Global styles + animations
 │
 └── server/                     # Express Backend
@@ -223,13 +188,12 @@ life-os/
     │   ├── projects.js
     │   ├── Habits.js
     │   └── notes.js
-    ├── server.js               # Express app entry
-    └── .env                    # Environment variables
+    └── server.js
 ```
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 ### Auth
 | Method | Endpoint | Description |
@@ -274,26 +238,17 @@ life-os/
 
 ---
 
-## 🌐 Deployment
+##  Deployment
 
-The app is deployed using a modern cloud stack:
-
-- **Frontend** → [Vercel](https://vercel.com) — Auto-deploys on every push to `master`
-- **Backend** → [Render](https://render.com) — Node.js web service
-- **Database** → [MongoDB Atlas](https://mongodb.com/atlas) — M0 Free cluster (Paris region)
-
-**Environment Variables (Production):**
-
-| Variable | Where |
-|----------|-------|
-| `MONGO_URI` | Render → Environment |
-| `JWT_SECRET` | Render → Environment |
-| `CLIENT_URL` | Render → Environment |
-| `REACT_APP_API_URL` | Vercel → Environment Variables |
+| Service | URL |
+|---------|-----|
+| 🌍 Frontend (Vercel) | https://life-os-sigma-ivory.vercel.app |
+| ⚙️ Backend (Render) | https://lifeos-backend-rupv.onrender.com |
+| 🍃 Database (MongoDB Atlas) | Paris region — M0 Free |
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 <div align="center">
 
@@ -309,7 +264,7 @@ The app is deployed using a modern cloud stack:
 
 <div align="center">
 
-**⭐ If you found this project useful, please give it a star!**
+** If you found this project useful, please give it a star!**
 
 Made with 💜 using the MERN Stack
 
