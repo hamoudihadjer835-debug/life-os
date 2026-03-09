@@ -9,7 +9,7 @@
 [![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongodb.com)
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
 
-![LifeOS Dashboard Preview](https://via.placeholder.com/900x500/0f0f1a/7c6fcd?text=LifeOS+Dashboard)
+![LifeOS Dashboard Preview]([https://via.placeholder.com/900x500/0f0f1a/7c6fcd?text=LifeOS+Dashboard](https://life-os-sigma-ivory.vercel.app))
 
 </div>
 
